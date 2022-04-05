@@ -9,7 +9,7 @@ export default function Dashboard() {
         icon="camera"
         mode="contained"
         onPress={() => console.log("Pressed")}
-        theme = {{ roundness : 10}}
+        theme = {{ roundness : 20}}
       >
         Press me
       </Button>

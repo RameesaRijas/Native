@@ -4,7 +4,7 @@ import { Appbar } from "react-native-paper";
 const Header = () => (
   <View>
     <Appbar.Header style={styles.container}>
-      <Appbar.Content title="Uber" />
+      <Appbar.Content title="Example" />
       <Appbar.Action
         icon="dots-vertical"
         onPress={() => console.log("handle press")}
