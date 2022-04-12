@@ -4,7 +4,6 @@ import { StyleSheet } from "react-native";
 import HomeRoute from "./HomeScreen";
 import ProfileRoute from "./ProfileScreen";
 
-
 const MainScreen = () => {
   const [index, setIndex] = React.useState(0);
   const [routes] = React.useState([
